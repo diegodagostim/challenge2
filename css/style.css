@@ -121,21 +121,21 @@ a {
 }
 
 .internalDiv1 {
-  background-image: url(/images/webdev.png);
+  background-image: url(../images/webdev.png);
   background-repeat: no-repeat;
   width: 193px;
   height: 180px;
 }
 
 .internalDiv2 {
-  background-image: url(/images/sysdev.png);
+  background-image: url(../images/sysdev.png);
   background-repeat: no-repeat;
   width: 193px;
   height: 180px;
 }
 
 .internalDiv3 {
-  background-image: url(/images/landing.png);
+  background-image: url(../images/landing.png);
   background-repeat: no-repeat;
   width: 193px;
   height: 180px;
@@ -190,6 +190,7 @@ button {
   width: 80px;
   height: 27px;
 }
+
 
 @media only screen and (max-width: 600px) {
   body {

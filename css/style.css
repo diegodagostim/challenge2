@@ -15,6 +15,7 @@ body {
     rgba(28, 9, 121, 1) 29%,
     rgba(0, 212, 255, 1) 100%
   );
+  color: white;
 }
 
 h1,
@@ -60,8 +61,23 @@ p {
 }
 
 .nav a:hover {
-  box-shadow: inset 145px 0 0 0 #3d33a4;
+  box-shadow: inset 145px 0 0 0 #3857d6;
   color: rgb(255, 255, 255);
+}
+
+.about {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.internal > p {
+  display: block;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 17px;
+  text-align: justify;
+  text
 }
 
 .internalDiv1,
@@ -73,9 +89,11 @@ p {
   height: 180px;
   border: rgb(255, 255, 255) solid 2px;
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 16px;
   border-radius: 0;
   padding: 7px;
+  margin-top: 20px;
+  color: black;
 }
 
 .internalDiv1:hover,
@@ -87,10 +105,13 @@ p {
   height: 180px;
   border: rgb(255, 255, 255) solid 2px;
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 28px;
   text-decoration: overline;
   border-radius: 20px 20px 20px 20px;
   padding: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: black;
 }
 
 .internalDiv1 {
@@ -140,7 +161,7 @@ p {
   border: white solid 3px;
   width: 400px;
   height: 310px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 footer {

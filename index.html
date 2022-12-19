@@ -4,39 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lernantino // Web Developer</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Diego Dagostim - Web Developer</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <!-- main logo / nav -->
     <header>
-      <h1>Lernantino__</h1>
-      <nav></nav>
+      <div class="nav">
+        <nav>
+          <a href="#about">ABOUT ME</a>
+          <a href="#work">WORK</a>
+          <a href="#contact">CONTACT ME</a>
+        </nav>
+      </div>
     </header>
 
     <!-- hero banner -->
-    <section class="hero-banner">
+    <section class="section">
       <div>
-        <h2>Cool subtitle here!</h2>
+        <h2>Personal Portfolio Website</h2>
       </div>
     </section>
 
     <main class="page-wrapper">
       <!-- about me -->
-      <section class="page-section" id="about">
-        <h2>About Me</h2>
+      <section class="hero-banner">
+        <div class="h2" id="about"><h2>About Me</h2></div>
+        <div class="internal">
+          <img src="./images/profile.png" />
+        </div>
       </section>
 
       <!-- portfolio container -->
-      <section class="page-section" id="work">
-        <h2>Work</h2>
+      <section class="hero-banner">
+        <div class="h2" id="work"><h2>Work</h2></div>
+        <div class="internal">
+          <img src="./images/02-portfolio-3.jpg" />
+          <div class="internalDiv">Web Sites</div>
+          <div class="internalDiv">System Developer</div>
+          <div class="internalDiv">Landing Pages</div>
+        </div>
       </section>
 
       <!-- contact -->
-      <section class="page-section contact" id="contact">
-        <h2>Contact Me</h2>
+      <section class="hero-banner">
+        <div class="h2" id="contact"><h2>Contact Me</h2></div>
+        <div class="internal">
+          <fieldset class="fieldset">
+            <h4>Contact Form</h4>
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="name"
+              required
+            /><br />
+            <input
+              type="text"
+              placeholder="Your Email"
+              class="email"
+              required
+            /><br />
+            <textarea
+              placeholder="Your text here"
+              rows="12"
+              cols="65"
+              required
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </fieldset>
+        </div>
       </section>
     </main>
+    <footer>
+      <h4>
+        © Copyright 2001-2022 Copyright.co.uk - All Rights Reserved - Legal
+      </h4>
+    </footer>
   </body>
 </html>

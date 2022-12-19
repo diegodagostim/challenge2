@@ -98,7 +98,7 @@ a {
   font-size: 16px;
   border-radius: 0;
   padding: 7px;
-  margin-top: 20px;
+  margin-top: 3px;
   color: black;
 }
 
@@ -115,7 +115,7 @@ a {
   text-decoration: overline;
   border-radius: 20px 20px 20px 20px;
   padding: 7px;
-  margin-top: 20px;
+  margin-top: 3px;
   cursor: pointer;
   color: black;
 }
@@ -181,4 +181,12 @@ footer {
   height: 30px;
   width: 100%;
   font-size: 12px;
+}
+
+
+button {
+  background-color: rgb(77, 129, 235);
+  color: white;
+  width: 80px;
+  height: 27px;
 }
